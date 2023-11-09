@@ -1,0 +1,58 @@
+{
+  "name": "pdp-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/g2": "^5.1.4",
+    "@grapecity/spread-sheets": "^16.2.2",
+    "@handsontable/vue": "^13.1.0",
+    "ant-design-vue": "^1.7.8",
+    "axios": "^1.5.1",
+    "core-js": "^3.8.3",
+    "element-ui": "^2.15.14",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "handsontable": "^13.1.0",
+    "material-icons": "^1.13.11",
+    "tdesign-vue": "^1.6.6",
+    "vue": "^2.6.14",
+    "vue-router": "^2.8.0",
+    "vuesax": "^3.12.2",
+    "vuex": "^2.5.0",
+    "xlsx": "^0.17.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
